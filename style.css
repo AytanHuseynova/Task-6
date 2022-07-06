@@ -8,15 +8,27 @@
         }
         
         .navbar {
-            display: flex;
+            width: 1500px;
+            height: 400px;
         }
         
         main {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
         }
         
+        main {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            float: right;
+            width: 80%;
+        }
+        
+        nav {
+            float: left;
+            width: 20%;
+        }
+        
         nav a {
-            display: block;
+            display: inline-block;
             color: #fffbfb;
             padding: 15px;
             text-decoration: none;
